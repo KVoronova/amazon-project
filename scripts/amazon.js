@@ -1,4 +1,4 @@
-import { cart, addToCatr } from "../data/cart.js";
+import { cart, addToCart } from "../data/cart.js";
 //import {cart as myCart} from "../data/cart.js";
 //import * as cartModule from "..//data/cart.js" import file
 import { products } from "../data/products.js";
@@ -75,7 +75,7 @@ document.querySelectorAll('.js-add-to-cart')
     .forEach((button) => {
         button.addEventListener('click', () => {
            const productId = button.dataset.productId;
-         addToCatr(productId);  
+         addToCart(productId);  
          updateCartQuantity(); 
         });
 });
