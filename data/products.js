@@ -59,6 +59,8 @@ class Clothing extends Product {
 }
 
 
+
+
 export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
@@ -163,7 +165,9 @@ export const products = [
       "hoodies",
       "sweaters",
       "apparel"
-    ]
+    ], 
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
@@ -289,7 +293,9 @@ export const products = [
       "shorts",
       "apparel",
       "mens"
-    ]
+    ],
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
   },
   {
     id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
@@ -471,7 +477,9 @@ export const products = [
       "tuques",
       "apparel",
       "womens"
-    ]
+    ],
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
   },
   {
     id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
@@ -486,7 +494,9 @@ export const products = [
       "pants",
       "apparel",
       "mens"
-    ]
+    ],
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
   },
   {
     id: "1c079479-8586-494f-ab53-219325432536",
@@ -565,7 +575,9 @@ export const products = [
       "jogging",
       "apparel",
       "womens"
-    ]
+    ],
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
@@ -716,7 +728,9 @@ export const products = [
       "hoodies",
       "apparel",
       "mens"
-    ]
+    ],
+    type: "clothing",
+    sizeChartLink: "images/clothing-size-chart.png"
   }
 ].map((productDetails) => {
   if(productDetails.type === 'clothing') {
