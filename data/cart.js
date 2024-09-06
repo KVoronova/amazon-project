@@ -77,10 +77,9 @@ export function updateDeliveryOption(productId, deliveryOptionId) {
 
 export function loadCart(fun) {
     const xhr = new XMLHttpRequest();
-  
+    
       xhr.addEventListener('load', () => {
-      console.log(xhr.response);
-  
+
       fun();
       
     });
